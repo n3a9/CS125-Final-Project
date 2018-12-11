@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         final EditText editText = findViewById(R.id.dateText);
-        editText.setText("Enter a custom date.");
+        editText.setText("");
         editText.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
